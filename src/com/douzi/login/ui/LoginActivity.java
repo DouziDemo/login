@@ -35,7 +35,7 @@ public class LoginActivity extends Activity
 	private Button loginButton;
 	private Button resetButton;
 	private static ProgressDialog dialog;
-
+	
 	private IUserService userService = new UserServiceImpl();
 
 	/**
@@ -195,5 +195,10 @@ public class LoginActivity extends Activity
 	}
 
 	private IHandler iHandler = new IHandler(this);
+	
+	public static void main(String[] args)
+	{
+		
+	}
 
 }
