@@ -1,0 +1,3 @@
+[submodule "DBConnector"]
+	path = DBConnector
+	url = https://github.com/DouziDemo/DBConnector
