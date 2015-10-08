@@ -15,6 +15,7 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -65,6 +66,7 @@ public class LoginActivity extends Activity
 			@Override
 			public void onClick(View v)
 			{
+				Log.i("douzi", "点击登陆按钮");
 				final String loginName = loginNameEditText.getText().toString();
 				final String loginPassword = loginPasswordEditText.getText()
 						.toString();
